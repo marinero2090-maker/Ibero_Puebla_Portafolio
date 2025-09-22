@@ -1,6 +1,6 @@
 
 
-<img src="../imagenes/Syllabus.png" alt= "diagrama del sistema" width="420">
+<img src="../Imagenes/Syllabus.png" alt= "diagrama del sistema" width="420">
 
 
 
