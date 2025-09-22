@@ -1,6 +1,6 @@
 #SEMANA 1
 
-Primero Tuvimos que entregar el syllabus firmado e impreso.
 
+<img src="../imagenes/Syllabus.png" alt= "diagrama del sistema" width="420">
 
 
