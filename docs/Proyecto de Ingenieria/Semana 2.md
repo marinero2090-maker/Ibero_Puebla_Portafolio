@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <img src="../Imagenes/Coca sola.png" width="100">
+    <img src="../Imagenes/coca sola.png" width="100">
 </p>
 
 La semana dos fue de hacer el diseño en 3D de una coca.
