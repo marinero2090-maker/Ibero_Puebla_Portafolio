@@ -1,6 +1,2 @@
-<p align="center">
-    <img src="../Imagenes/PLANTA.png" width="300">
-</p>
-<p align="center">
-    <img src="../Imagenes/pLA.png" width="300">
-</p>
+
+| <img src="../Imagenes/PLANTA.png" width="200">|<img src="../Imagenes/pLA.png" width="200">|
