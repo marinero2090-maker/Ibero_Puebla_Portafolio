@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="../Imagenes/Coca de lado.png" width="550">
+    <img src="../Imagenes/Coca de lado.png" width="100">
 </p>
 
 <p align="center">
-    <img src="../Imagenes/Coca sola.png" width="550">
+    <img src="../Imagenes/Coca sola.png" width="100">
 </p>
 
-La semana empezo con hacer un diseño de coca  en 3d.
+La semana dos fue de hacer el diseño en 3D de una coca.
