@@ -28,10 +28,7 @@ De parte de la madera podemos encontrar estas dos maquinas las cuales nos ayudan
 </p>
 Esta sirve para hacer perforaciones a la madera.
 
-<p align="left">
-    <img src="../Imagenes/poste.png" width="200">
-</p>
-<p align="right">
-    <img src="../Imagenes/maderito.png" width="200">
-</p>
+
+| <img src="../Imagenes/poste.png" width="200">|<img src="../Imagenes/maderito.png" width="200"> |
+
 Y aquí estaría la pieza de la semana 3, un porta celulares de carga, faltaron mas quinas como la cortadora que es mas grande que las otras dos anteriores y mas precisa, otra cierra, pero de madera y la banda para dejar lizo la madera.
