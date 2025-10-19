@@ -26,4 +26,12 @@ void loop() {
     digitalWrite(LED,0);
   }
 }
+```
+
+</div>
+
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">FUNCIÓN</h3>
+        <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado cada segundo.</p>
+        </div>
 </div>
