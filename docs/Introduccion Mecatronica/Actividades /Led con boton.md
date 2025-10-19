@@ -4,7 +4,7 @@
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">CÓDIGO</h3>
         
-```markdown
+
 ```cpp
 const int LED=32;
 const int btn=27;
