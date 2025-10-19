@@ -4,27 +4,25 @@
         <h3 style="color:#008080;">CÓDIGO</h3>
         
  ```cpp
-        const int LED = 33; 
+const int LED=32;
+const int btn=27;
 
-        void setup() {
-          Serial.begin(115200); 
-          pinMode(LED, OUTPUT); 
-        }
+void setup() {
+    Serial.begin(115200);
+    pinMode(LED,OUTPUT);
+    pinMode(btn,INPUT);
+}
 
-        void loop() {
-          digitalWrite(LED, 1); 
-          delay(1000);          
-          digitalWrite(LED, 0); 
-          delay(1000);         
-        } 
+void loop(){
+    int estado = digitalRead(btn);
+    if(estado==1){
+        digitalWrite(LED,1);
+    }
+    else{
+        digitalWrite(LED,0);
+    }
+}
 ```
-    </div>
-
-    <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">FUNCIÓN</h3>
-        <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado cada segundo.</p>
-        </div>
-
 
 <video width="300" controls>
     <source src="../Videos/Led.mp4" type="video/mp4">
