@@ -3,7 +3,7 @@
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">CÓDIGO</h3>
         
-        ```cpp
+ ```cpp
         const int LED = 33; 
 
         void setup() {
@@ -16,8 +16,8 @@
           delay(1000);          
           digitalWrite(LED, 0); 
           delay(1000);         
-        }
-        ```
+        } 
+```
     </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">

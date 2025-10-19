@@ -3,7 +3,7 @@
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">CÓDIGO</h3>
         
-     ```cpp
+```cpp
     const int LED=32;
     const int btn=27;
     
@@ -22,12 +22,13 @@
     else{
         digitalWrite(LED,0);
     }
-    ```
-    </div>
+ ```
+    
+</div>
 
-    <div style="flex: 1 1 45%; min-width: 300px;">
+<div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">FUNCIÓN</h3>
         <p>El LED se enciende solo mientras el botón esté presionado y se apaga inmediatamente cuando se suelta.</p>
-        </div>
+</div>
 
 
