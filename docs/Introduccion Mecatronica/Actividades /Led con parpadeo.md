@@ -25,9 +25,8 @@
         <h3 style="color:#008080;">FUNCIÓN</h3>
         <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado cada segundo.</p>
         </div>
-</div>
 
-<video width="400" controls>
-  <source src="../../Videos/Videos/LEP PARPADEO.mp4" type="video/mp4">
-  Tu navegador no soporta video.
-</video>
+<div class="video width="400" controls>
+    <source src="../../../Videos/LED PARPADEO.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+</div>
