@@ -1,4 +1,3 @@
-
 <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
 
     <div style="flex: 1 1 45%; min-width: 300px;">
