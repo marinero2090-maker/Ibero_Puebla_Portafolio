@@ -21,6 +21,12 @@ void loop() {
   delay(1000); // Espera 1 segundo
 }
 ```
+</div>
+
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">FUNCIÓN</h3>
+        <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado de un LED de forma automática a intervalos de tiempo definidos.</p>
+</div>
 
 <video width="300" controls>
     <source src="../Videos/Led.mp4" type="video/mp4">
