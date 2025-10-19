@@ -1,3 +1,4 @@
+
 <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
 
     <div style="flex: 1 1 45%; min-width: 300px;">
@@ -25,3 +26,8 @@
         <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado cada segundo.</p>
         </div>
 </div>
+
+<video width="400" controls>
+  <source src="../../Videos/Videos/LEP PARPADEO.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
