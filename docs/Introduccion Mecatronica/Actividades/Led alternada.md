@@ -27,6 +27,6 @@
 
 
 <video width="300" controls>
-    <source src="../Videos/Parpadeo.mp4" type="video/mp4">
+    <source src="../Videos/Led.mp4" type="video/mp4">
     Tu navegador no soporta video.
 </video>
