@@ -13,7 +13,7 @@
         pinMode(btn,INPUT);
     }
     
-    void loop() {
+    void loop(){
         int estado = digitalRead(btn);
         if(estado==1){
             digitalWrite(LED,1);
@@ -22,6 +22,7 @@
     else{
         digitalWrite(LED,0);
     }
+}
  ```
     
 </div>
