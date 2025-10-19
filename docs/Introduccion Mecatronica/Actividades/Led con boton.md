@@ -4,29 +4,26 @@
         <h3 style="color:#008080;">CÓDIGO</h3>
         
         ```cpp
-        const int LED=32; // Pin de Salida para el LED
-const int btn=27; // Pin de Entrada para el Botón
-
-void setup() {
-  // Configuración inicial
-  Serial.begin(115200);
-  pinMode(LED,OUTPUT);
-  pinMode(btn,INPUT); // Se configura el pin del botón como entrada
-}
-
-void loop() {
-  // Lectura repetida del estado del botón
-  int estado = digitalRead(btn);
-  
-  // Lógica de control:
-  if(estado==1){ // Si el botón está presionado (estado HIGH)
-    digitalWrite(LED,1); // Enciende el LED (HIGH)
-  }
-  else{ // Si no está presionado (estado LOW)
-    digitalWrite(LED,0); // Apaga el LED (LOW)
-  }
-}
-        ```
+        const int LED=32;
+        const int btn=27;
+    
+    void setup() {
+        Serial.begin(115200);
+        pinMode(LED,OUTPUT);
+        pinMode(btn,INPUT);
+    }
+    
+    void loop() {
+        int estado = digitalRead(btn);
+        if(estado==1){
+            digitalWrite(LED,1);
+        }
+        
+    else{
+        digitalWrite(LED,0);
+    }
+    
+    ```
     </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
@@ -35,7 +32,3 @@ void loop() {
         </div>
 
 
-<video width="400" controls>
-    <source src="../../../Videos/LED PARPADEO.mp4" type="video/mp4">
-    Tu navegador no soporta video.
-</video>
