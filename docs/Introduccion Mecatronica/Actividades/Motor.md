@@ -47,6 +47,6 @@ void loop() {
 
 <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">FUNCIÓN</h3>
-        <p>Este código implementa la función de Interruptor Digital, controlando el encendido y apagado de un LED al leer continuamente el estado de un botón conectado a la placa.</p>
+        <p>Este código implementa un ciclo de movimiento básico para un motor DC (o actuador). Hace que el motor gire en una dirección y luego gire en la dirección opuesta, con una breve parada entre cada cambio de sentido.</p>
         </div>
 </div>
