@@ -4,23 +4,21 @@
         <h3 style="color:#008080;">CÓDIGO</h3>
     
 ```cpp
-const int LED=32;
-const int btn=27;
+const int LED = 33; // Define el pin del LED (o el pin que uses, como el 33)
 
 void setup() {
-    Serial.begin(115200);
-    pinMode(LED,OUTPUT);
-    pinMode(btn,INPUT);
+  Serial.begin(115200); // Inicia la comunicación serie
+  pinMode(LED, OUTPUT); // Configura el pin del LED como salida
 }
 
-void loop(){
-    int estado = digitalRead(btn);
-    if(estado==1){
-        digitalWrite(LED,1);
-    }
-    else{
-        digitalWrite(LED,0);
-    }
+void loop() {
+  // 1. Enciende el LED
+  digitalWrite(LED, 1); 
+  delay(1000); // Espera 1 segundo (1000 milisegundos)
+  
+  // 2. Apaga el LED
+  digitalWrite(LED, 0); 
+  delay(1000); // Espera 1 segundo
 }
 ```
     
