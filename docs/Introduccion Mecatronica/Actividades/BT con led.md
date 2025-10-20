@@ -1,7 +1,8 @@
 <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">ESP32</h3>
-<img src="../Imagenes/ESPN.png" width="200">
-es la placa que te permite crear proyectos de hardware que se comunican de forma inalámbrica, siendo la base física de tu sistema de control de LED por Bluetooth.
+<img src="../Imagenes/ESPN.png" width="500">
+ <p>Es la placa que te permite crear proyectos de hardware que se comunican de forma inalámbrica, siendo la base física de tu sistema de control de LED por Bluetooth.</p>
+
 
 
 
