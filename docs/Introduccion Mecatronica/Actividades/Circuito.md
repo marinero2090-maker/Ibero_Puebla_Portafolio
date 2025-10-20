@@ -1,4 +1,5 @@
 # 1er Circuito 555
+<img src="../Imagenes/a.png" width="500">
 
 <p style="color: #6a737d;">Tiene como objetivo principal el estudio y la implementación práctica del Circuito Integrado 555 como generador de señales. Este componente es fundamental en la electrónica por su versatilidad como temporizador.</p>
 
