@@ -22,6 +22,6 @@ Se requiere una serie de herramientas y componentes esenciales, tanto para el mo
 * Resistencias de 20 K$\Omega$
 * Capacitor electrolítico de 220 $\mu$F
 
-### Núcleo del Circuito:
-* El componente central de la práctica: Circuito Integrado 555      
-        
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">Objetivo de la Actividad</h3>     
+ <p>Diseñar, montar y comprobar un circuito utilizando el Circuito Integrado 555 en su configuración astable para producir una onda cuadrada con un periodo de tiempo específico. </p>       
