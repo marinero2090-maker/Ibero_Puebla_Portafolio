@@ -50,3 +50,8 @@ void loop() {
         <p>Este código implementa un ciclo de movimiento básico para un motor DC (o actuador). Hace que el motor gire en una dirección y luego gire en la dirección opuesta, con una breve parada entre cada cambio de sentido.</p>
         </div>
 </div>
+
+<video width="300" controls>
+    <source src="../Videos/Motor.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+</video>
