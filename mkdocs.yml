@@ -28,7 +28,7 @@ theme:
   name: material
   highlightjs: true 
   palette:
-      - scheme: default
+      - scheme: slate
         primary: green
 
   features:
