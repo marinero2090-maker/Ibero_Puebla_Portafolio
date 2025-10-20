@@ -13,7 +13,7 @@ const int Off = 0;
 
 void setup() {
   Serial.begin(115200); 
-  SerialBT.begin("Adrian"); 
+  SerialBT.begin("Chispita"); 
   Serial.println("El dispositivo Bluetooth esta listo para emparejarse.");
   pinMode(LED, OUTPUT); 
 }
