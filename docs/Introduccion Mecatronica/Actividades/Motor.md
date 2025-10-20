@@ -51,6 +51,8 @@ void loop() {
         </div>
 </div>
 
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">EN PRACTICA</h3>
 <video width="300" controls>
     <source src="../Videos/Motor.mp4" type="video/mp4">
     Tu navegador no soporta video.

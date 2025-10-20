@@ -28,6 +28,8 @@ void loop() {
         <p>El LED se enciende solo mientras el botón esté presionado y se apaga inmediatamente cuando se suelta.</p>
 </div>
 
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">EN PRACTICA</h3>
 <video width="300" controls>
     <source src="../Videos/Led.mp4" type="video/mp4">
     Tu navegador no soporta video.
