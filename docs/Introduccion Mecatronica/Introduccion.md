@@ -10,4 +10,4 @@
         los sigo extrañando y queriendo con mucho cariño. Me encanta el futbol, jugar videojuegos, admirar el paisaje, pero lo que mas me fascina en esta vida es la lluvia </p>
 
 <img src="../Imagenes/Cielo.png" width="500">
-Uno de mis cielos favoritos
+<h3 style="color:#008080;">Uno de mis cielos favoritos</h3>
