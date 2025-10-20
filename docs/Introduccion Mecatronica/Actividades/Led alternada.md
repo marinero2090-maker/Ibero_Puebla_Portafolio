@@ -28,6 +28,28 @@ void loop() {
         <p>Este código implementa la función básica de Parpadeo (Blink), repitiendo el ciclo de encendido y apagado de un LED de forma automática a intervalos de tiempo definidos.</p>
 </div>
 
+.contenedor-columnas {
+  display: flex; /* Para ponerlos lado a lado */
+  gap: 40px; /* Buen espacio entre las columnas */
+  padding: 20px;
+  border-radius: 8px; /* Borde redondeado suave para todo el contenedor */
+}
+
+.columna-codigo {
+  flex: 1; /* Ocupa el mismo espacio */
+  background-color: #f7f7f9; /* Gris muy claro para el código */
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Una barra de color sutil a la izquierda (azul, verde, etc.) */
+  border-radius: 6px;
+}
+
+.columna-funcion {
+  flex: 1;
+  padding: 20px 0; /* Espacio vertical, sin fondo */
+  border-left: 1px solid #ddd; /* Separador vertical muy fino */
+  padding-left: 40px; /* Para que el texto no toque la línea */
+}
+
 <video width="300" controls>
     <source src="../Videos/Led.mp4" type="video/mp4">
     Tu navegador no soporta video.
