@@ -1,3 +1,4 @@
+# SEMANA 4 <p style="color: #e7071aff;">
 </div>
 
 <div style="flex: 1 1 45%; min-width: 300px;">
@@ -6,4 +7,7 @@
 </div>
 
 <img src="../Imagenes/casco de halo.png" width="500">
+
+</div>
+
 <img src="../imagenes/imagen de chef.png" width="200">
