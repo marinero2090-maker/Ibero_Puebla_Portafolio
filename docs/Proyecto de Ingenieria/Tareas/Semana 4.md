@@ -1,5 +1,8 @@
 # SEMANA 4 
+
 <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">CÓDIGO</h3>
 <img src="../imagenes/imagen de chef.png" width="500">
 
 </div>
