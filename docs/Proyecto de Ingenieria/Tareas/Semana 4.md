@@ -12,6 +12,7 @@
         <h3 style="color:#008080;">FUNCION</h3>
         <p> Este seria el grabado que llevaria el porta celular.</p>
 </div>
+
 ---------------------------------------------------------------------------------------------
 <img src="../imagenes/casco de halo.png" width="500">
 
