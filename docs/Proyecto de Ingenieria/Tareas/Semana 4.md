@@ -11,3 +11,15 @@
 ---------------------------------------------------------------------------------------------
 <img src="../imagenes/casco de halo.png" width="500">
 
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
+
+    <div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">CÓDIGO</h3>
+
+
+</div>
+
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">FUNCIÓN</h3>
+        <p>Su función es recibir comandos numéricos desde la conexión Bluetooth para controlar el estado de un LED conectado al Pin 14.</p>
+</div>
