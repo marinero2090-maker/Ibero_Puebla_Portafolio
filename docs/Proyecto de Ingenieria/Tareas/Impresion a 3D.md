@@ -1,8 +1,8 @@
-#IMPRESION DE 3D
+#IMPRESION EN 3D
 
 <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
 
-    <div style="flex: 1 1 45%; min-width: 300px;">
+    <div style="flex: 1 1 55%; min-width: 300px;">
         <h3 style="color:#008080;">PAGINA</h3>
         <img src="../imagenes/3D pagina.png" width="500">
 
@@ -21,15 +21,15 @@
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">ANTES</h3>
-        <img src="../imagenes/SONIC.png" width="500">
+        <img src="../imagenes/SONIC.png" width="400">
 
 
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
-
+<div style="flex: 1 1 45%; min-width: 300px;">
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">DESPUES</h3>
         <img src="../imagenes/sonic.png" width="500">
+</div>        
 
 Mas que nada el hecho de porque hice este personaje fue porque me recuerda mucho a mi hermana y se lo queria dar de regalo.
