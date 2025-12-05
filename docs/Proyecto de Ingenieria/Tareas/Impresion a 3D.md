@@ -29,6 +29,8 @@
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">DESPUES</h3>
-        <img src="../imagenes/sonic.png" width="300">    
+        <img src="../imagenes/sonic.png" width="300">  
 
-<p>Mas que nada el hecho de porque hice este personaje fue porque me recuerda mucho a mi hermana y se lo queria dar de regalo.</p>
+<div style="flex: 1 1 45%; min-width: 300px;">
+        <h3 style="color:#008080;">SIGNIFICADO</h3>
+Mas que nada el hecho de porque hice este personaje fue porque me recuerda mucho a mi hermana y se lo queria dar de regalo.
