@@ -4,7 +4,7 @@
 
     <div style="flex: 1 1 70%; min-width: 300px;">
         <h3 style="color:#008080;">PAGINA</h3>
-        <img src="../imagenes/3D pagina.png" width="700">
+        <img src="../imagenes/3D pagina.png" width="800">
 
 
 </div>
