@@ -29,6 +29,6 @@
 </div>
 
 <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">FUNCIÓN</h3>
+        <h3 style="color:#008080;">CAMBIOS</h3>
         <p> Algunos cambios que pude aver hecho para mejorar la espada pudo ser el de poner una union entre la parte de arriba y abajo, eso provocaria que no se moviera mucho.</p>
 </div>
