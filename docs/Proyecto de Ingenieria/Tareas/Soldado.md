@@ -30,13 +30,13 @@
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">DESPUES</h3>
+        <h3 style="color:#008080;">CABEZA</h3>
         <img src="../imagenes/cabeza.png" width="300"> 
 
 </div>
 
 <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">CAMBIOS</h3>
+        <h3 style="color:#008080;">DATOS</h3>
         <p> A la hora de hacer el cuerpo me percate despues de que mi cabeza no esta tan grande entonces no se llegan a ver los detalles, cabe recalcar que al principio el escaneo de la cabeza hiba a ser con una tipo camara la cual por el tiempo ya no se pudo entonces tuvismos que recurrir a la pagina de 3D Model para que nos hiciera el diseño de la cabeza en 3D y para meternos mas en el papel de soldado le pedi que me pusiera un casco a gemini.</p>  
 
 </div>
