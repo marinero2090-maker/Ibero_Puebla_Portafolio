@@ -4,7 +4,7 @@
 
     <div style="flex: 1 1 55%; min-width: 300px;">
         <h3 style="color:#008080;">PAGINA</h3>
-        <img src="../imagenes/3D pagina.png" width="500">
+        <img src="../imagenes/3D pagina.png" width="700">
 
 
 </div>
@@ -29,7 +29,6 @@
 <div style="flex: 1 1 45%; min-width: 300px;">
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">DESPUES</h3>
-        <img src="../imagenes/sonic.png" width="500">
-</div>        
+        <img src="../imagenes/sonic.png" width="400">    
 
 Mas que nada el hecho de porque hice este personaje fue porque me recuerda mucho a mi hermana y se lo queria dar de regalo.
