@@ -26,6 +26,7 @@
 
 
 </div>
+
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">DESPUES</h3>
         <img src="../imagenes/sonic.png" width="400">    
