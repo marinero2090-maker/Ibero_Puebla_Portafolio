@@ -18,6 +18,7 @@ Para el proyecto final se construyó una plataforma móvil diseñada para manten
          Impresión 3D 
          cortadora laser
 </div>
+```cpp
 import cv2                 # Librería para la cámara, ventanas y procesamiento de imagen
 import numpy as np        # Usada aquí para crear rangos HSV
 import serial             # Para comunicación serial con Arduino
@@ -229,9 +230,11 @@ if ser.is_open:
     ser.close()
 
 cv2.destroyAllWindows()
+```
 
 
-#CODIGO DEL ARDUINO
+# CODIGO ARDUINO
+
 #include "BluetoothSerial.h"  
 // Esta librería permite comunicar el ESP32 como si fuera un puerto inalámbrico.
 
@@ -243,14 +246,14 @@ float Kp = 0.2;
 // Constante de Kp
 
 String device_name = "ESP32_ANA";  
-// Nombre que tendrá el dispositivo cuando se vea desde el Bluetooth de la copmutadora
+// Nombre que tendrá el dispositivo cuando se vea desde el Bluetooth de la computadora
 
 // --------------------------- VALIDACIONES DEL ESP32 ---------------------------
 // Estas validaciones revisan que el Bluetooth esté habilitado en la configuración
 // del ESP32 antes de compilar. Si no lo está, el programa no compilará y marcará error.
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
-#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#error Bluetooth is not enabled! Please run `make menuconfig` and enable it
 #endif
 
 // Verifica si el perfil SPP (Serial Port Profile) está disponible
@@ -276,15 +279,13 @@ String errory = "";    // Parte del mensaje que contiene el valor en Y
 void setup() {
   Serial.begin(115200);  
   // Inicializa la comunicación serial por USB a 115200 baudios
-  // Esto permite ver datos en el Serial Monitor
 
   SerialBT.begin(device_name);  
-  // Inicia el Bluetooth con el nombre especificado en device_name
+  // Inicia el Bluetooth con el nombre especificado
   // Ahora el ESP32 aparecerá como "ESP32_ANA" en la lista de dispositivos BT
 
   // SerialBT.deleteAllBondedDevices();  
   // (Opcional) Si se descomenta, borra dispositivos emparejados anteriormente
-  // Útil si el teléfono no conecta porque cree que el dispositivo "ya existe".
 
   // Mensaje inicial que confirma que el Bluetooth está activo
   Serial.printf(
@@ -306,8 +307,38 @@ void loop() {
 
   if (Serial.available()) {
     // Lee hasta encontrar un salto de línea
-    // Ejemplo: "120,-35\n"
-    msj = Serial.readStrin
+    // Ejemplo esperado: "120,-35\n"
+    msj = Serial.readStringUntil('\n');
+
+    // Envía lo recibido también por Bluetooth
+    SerialBT.println(msj);
+  }
+
+  // ---------------------------------------------------------------
+  // Si llegan datos desde Bluetooth (PC o teléfono)
+  // ---------------------------------------------------------------
+  if (SerialBT.available()) {
+    // Recibir línea completa desde Bluetooth
+    msj = SerialBT.readStringUntil('\n');
+
+    // Imprimir en consola USB
+    Serial.println(msj);
+
+    // Buscar coma que separa X e Y
+    int coma = msj.indexOf(',');
+    if (coma != -1) {
+      errorx = msj.substring(0, coma);
+      errory = msj.substring(coma + 1);
+
+      Serial.print("Error X = ");
+      Serial.println(errorx);
+
+      Serial.print("Error Y = ");
+      Serial.println(errory);
+    }
+  }
+}
+
 
 #EXPLICACION DEL PROCEDIMIENTO
 Entre la plataforma superior y los actuadores se instalaron cuatro soportes articulados, ubicados en cada una de las esquinas. Cada soporte incorpora un cilindro rematado con una esfera que facilita tanto el giro como la rotación. Este mecanismo permite que la plataforma se incline con libertad, evitando esfuerzos mecánicos innecesarios y previniendo cualquier tipo de bloqueo en su movimiento
