@@ -392,11 +392,13 @@ Esta es la versión final de cómo quedó nuestro proyecto:
     <source src="../VIDEO/Resultados.mp4" type="video/mp4">
     Tu navegador no soporta video.
 </video>
+
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">FINAL</h3>
         <img src="../Imagenes/FINISH.png" width="400">
+</div>
 
 
 
