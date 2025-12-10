@@ -354,13 +354,13 @@ Estos son los modelos de los soportes que hicimos para las plataformas:
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">UNION ESFERICA</h3>
-        <img src="../imagenes/SOPORTE.png" width="400">  
+        <img src="../IMAGEN/SOPORTE.png" width="400">  
 
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">SOPORTE INFERIOR</h3>
-        <img src="../imagenes/PARTE UNFERIOIR.png" width="400">
+        <img src="../IMAGEN/PARTE UNFERIOIR.png" width="400">
 
 </div>
 
@@ -373,13 +373,13 @@ Este es el diseño de nuestra plataforma para cortarla por láser:
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">Plataforma superior</h3>
-        <img src="../imagenes/PLATAFORMA.png" width="400">  
+        <img src="../IMAGEN/PLATAFORMA.png" width="400">  
 
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">Plataforma inferior</h3>
-        <img src="../imagenes/PLATAFORMA INF.png" width="400">
+        <img src="../IMAGEN/PLATAFORMA INF.png" width="400">
 
 </div>
 
@@ -396,7 +396,7 @@ Esta es la versión final de cómo quedó nuestro proyecto:
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">FINAL</h3>
-        <img src="../imagenes/FINISH.png" width="400">
+        <img src="../IMAGEN/FINISH.png" width="400">
 
 
 
