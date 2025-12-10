@@ -349,18 +349,18 @@ Entre la plataforma superior y los actuadores se instalaron cuatro soportes arti
 Para la parte inferior y que aseguraran la correcta instalación de los motores en la estructura, se diseñaron e imprimieron en 3D cuatro soportes específicos para motores lineales, creados en SolidWorks. Estos soportes permiten mantener una alineación adecuada de los actuadores y aseguran que el movimiento se transfiera a la plataforma con precisión.
 
 Estos son los modelos de los soportes que hicimos para las plataformas:
-
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
  </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">UNION ESFERICA</h3>
-        <img src="../IMAGEN/SOPORTE.png" width="400">  
+        <img src="../Imagenes/SOPORTE.png" width="400">
 
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">SOPORTE INFERIOR</h3>
-        <img src="../IMAGEN/PARTE UNFERIOIR.png" width="400">
+        <img src="../Imagenes/PARTE UNFERIOIR.png" width="400">
 
 </div>
 
@@ -368,21 +368,21 @@ La estructura central del proyecto se formó utilizando dos placas de MDF de 40 
 
 Este es el diseño de nuestra plataforma para cortarla por láser:
 
-
- </div>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
+</div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">Plataforma superior</h3>
-        <img src="../IMAGEN/PLATAFORMA.png" width="400">  
+        <img src="../Imagenes/PLATAFORMA.png" width="400"> 
 
 </div>
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">Plataforma inferior</h3>
-        <img src="../IMAGEN/PLATAFORMA INF.png" width="400">
+        <img src="../Imagenes/PLATAFORMA INF.png" width="400">
 
 </div>
-
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
 #Resultados
 Esta es la versión final de cómo quedó nuestro proyecto:
 
@@ -396,7 +396,7 @@ Esta es la versión final de cómo quedó nuestro proyecto:
 
     <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">FINAL</h3>
-        <img src="../IMAGEN/FINISH.png" width="400">
+        <img src="../Imagenes/FINISH.png" width="400">
 
 
 
