@@ -18,6 +18,7 @@ Para el proyecto final se construyó una plataforma móvil diseñada para manten
          Impresión 3D 
          cortadora laser
 </div>
+# CODIGOS
 ```cpp
 import cv2                 # Librería para la cámara, ventanas y procesamiento de imagen
 import numpy as np        # Usada aquí para crear rangos HSV
@@ -234,7 +235,7 @@ cv2.destroyAllWindows()
 
 
 # CODIGO ARDUINO
-
+```cpp
 #include "BluetoothSerial.h"  
 // Esta librería permite comunicar el ESP32 como si fuera un puerto inalámbrico.
 
@@ -338,7 +339,7 @@ void loop() {
     }
   }
 }
-
+```
 
 #EXPLICACION DEL PROCEDIMIENTO
 Entre la plataforma superior y los actuadores se instalaron cuatro soportes articulados, ubicados en cada una de las esquinas. Cada soporte incorpora un cilindro rematado con una esfera que facilita tanto el giro como la rotación. Este mecanismo permite que la plataforma se incline con libertad, evitando esfuerzos mecánicos innecesarios y previniendo cualquier tipo de bloqueo en su movimiento
