@@ -3,20 +3,25 @@
 Para el proyecto final se construyó una plataforma móvil diseñada para mantener una pelota equilibrada en el centro. Para lograrlo, se emplearon actuadores lineales que ajustan la posición de la superficie. El sistema reacciona de manera automática a cualquier movimiento de la pelota y combina principios de electrónica, programación y mecánica para formar un mecanismo de control plenamente operativo.
 
 <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">MATERIALES</h3>
-        Materiales
-       -MDF
-       -Filamento
-       -ESP32
-       -Puentes H
-       -Actuadores lineales
-       -Pintura en aerosol
+    <h3 style="color:#008080;">MATERIALES</h3>
+
+    <ul>
+        <li>MDF</li>
+        <li>Filamento</li>
+        <li>ESP32</li>
+        <li>Puentes H</li>
+        <li>Actuadores lineales</li>
+        <li>Pintura en aerosol</li>
+    </ul>
 </div>
+
 <div style="flex: 1 1 45%; min-width: 300px;">
-        <h3 style="color:#008080;">METODOS DE CONSTRUCCION</h3>
-        Métodos de construcción
-        1. impresion
-        2.Cortadora laser
+    <h3 style="color:#008080;">MÉTODOS DE CONSTRUCCIÓN</h3>
+
+    <ol>
+        <li>Impresión 3D</li>
+        <li>Corte láser</li>
+    </ol>
 </div>
 # CODIGOS
 ```cpp
