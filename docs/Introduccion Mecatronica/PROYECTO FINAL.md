@@ -341,7 +341,7 @@ void loop() {
 }
 ```
 
-#EXPLICACION DEL PROCEDIMIENTO
+# EXPLICACION DEL PROCEDIMIENTO
 Entre la plataforma superior y los actuadores se instalaron cuatro soportes articulados, ubicados en cada una de las esquinas. Cada soporte incorpora un cilindro rematado con una esfera que facilita tanto el giro como la rotación. Este mecanismo permite que la plataforma se incline con libertad, evitando esfuerzos mecánicos innecesarios y previniendo cualquier tipo de bloqueo en su movimiento
 
 Para la parte inferior y que aseguraran la correcta instalación de los motores en la estructura, se diseñaron e imprimieron en 3D cuatro soportes específicos para motores lineales, creados en SolidWorks. Estos soportes permiten mantener una alineación adecuada de los actuadores y aseguran que el movimiento se transfiera a la plataforma con precisión.
@@ -380,10 +380,10 @@ Este es el diseño de nuestra plataforma para cortarla por láser:
         <img src="../Imagenes/PLATAFORMA INF.png" width="400">
 
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
-#Resultados
-Esta es la versión final de cómo quedó nuestro proyecto:
 
+# RESULTADOS
+Esta es la versión final de cómo quedó nuestro proyecto:
+<div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between;">
 <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">EN PRACTICA</h3>
 <video width="400" controls>
