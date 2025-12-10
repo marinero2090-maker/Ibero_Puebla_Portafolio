@@ -5,17 +5,17 @@ Para el proyecto final se construyó una plataforma móvil diseñada para manten
 <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">MATERIALES</h3>
         Materiales
-        MDF
-        Filamento
-        ESP32
-        Puentes H
-        Actuadores lineales
-        Pintura en aerosol
+       -MDF
+       -Filamento
+       -ESP32
+       -Puentes H
+       -Actuadores lineales
+       -Pintura en aerosol
 </div>
 <div style="flex: 1 1 45%; min-width: 300px;">
         <h3 style="color:#008080;">METODOS DE CONSTRUCCION</h3>
         Métodos de construcción
-        1.impresion a 3D
+        1. impresion
         2.Cortadora laser
 </div>
 # CODIGOS
